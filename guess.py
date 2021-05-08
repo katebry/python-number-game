@@ -26,3 +26,8 @@ if guess == number:
     guesses = str(guesses)
     print('Good job ' + myName +
           '! You guessed my number in ' + guesses + ' guesses!')
+
+if guess != number:
+    number = str(number)
+    print('Sorry ' + myName + ' the number I was thinking of was ' +
+          number + ', better luck next time!')
